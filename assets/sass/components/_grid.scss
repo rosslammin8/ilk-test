@@ -1,0 +1,48 @@
+.c-grid {
+  display: flex;
+  flex-wrap: wrap;
+
+  > .c-grid--item-half {
+    width: 50%;
+  }
+
+  > .c-grid--item-quarter {
+    width: 25%;
+  }
+
+  > .c-grid--footer-right {
+    width: 42%;
+  }
+
+  > .c-grid--footer-left {
+    width: 58%;
+  }
+}
+
+.c-grid--no-wrap {
+  flex-wrap: nowrap;
+}
+
+.c-grid-inline {
+  display: inline-flex;
+}
+
+.c-grid--direction-column {
+  flex-direction: column;
+}
+
+.c-grid--justify-center {
+  justify-content: center;
+}
+
+.c-grid--align-center {
+  align-items: center;
+}
+
+.c-grid--justify-end {
+  justify-content: flex-end;
+}
+
+.c-grid--space-between {
+  justify-content: space-between;
+}

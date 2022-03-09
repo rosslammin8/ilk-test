@@ -1,0 +1,49 @@
+.c-hero {
+  position: relative;
+  padding-top: 50%;
+
+  &::after {
+    content: '';
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background: {
+      image: url(../../assets/img/products-header-return-xl.jpg);
+      repeat: no-repeat;
+      position: 50% 50%;
+      size: cover;
+    }
+
+    z-index: -1;
+  }
+}
+
+.c-hero__wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.c-hero__content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.c-hero__title {
+  font-size: 3rem;
+  margin-bottom: 0;
+  padding: .5rem;
+}
+
+.c-hero__sub-title {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  padding: .5rem;
+}

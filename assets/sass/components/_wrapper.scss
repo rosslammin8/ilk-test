@@ -1,0 +1,52 @@
+.c-wrapper {
+  margin: 0 auto;
+
+  & > *:last-child:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.c-wrapper__pad-small {
+  padding: {
+    top: 4rem;
+    bottom: 4rem;
+  }
+}
+
+.c-wrapper__pad-large {
+  padding: {
+    top: 8rem;
+    bottom: 8rem;
+  }
+}
+
+.c-wrapper__small {
+  max-width: 700px;
+}
+
+.c-wrapper__medium {
+  max-width: 1100px;
+}
+
+.c-wrapper__large {
+  max-width: 1240px;
+}
+
+.c-wrapper__title {
+  color: $color--teal;
+  font-size: 1.8rem;
+  text-align: center;
+
+  .bg-teal & {
+    color: $color--white
+  }
+}
+
+.c-wrapper__text {
+  font-size: 1.3rem;
+  text-align: center;
+
+  .bg-teal & {
+    color: $color--white
+  }
+}

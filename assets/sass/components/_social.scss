@@ -1,0 +1,10 @@
+.c-social-icons {
+  > *:not(:last-child) {
+    margin-right: 2rem;
+  }
+}
+
+.c-social-icon {
+  height: 25px;
+  width: 25px;
+}

@@ -1,0 +1,46 @@
+.c-button {
+  display: inline-block;
+
+  color: $color--white;
+
+  padding: {
+    top: 1rem;
+    bottom: 1rem;
+    right: 4rem;
+    left: 4rem;
+  }
+}
+
+.c-button__bordered {
+  border: {
+    width: 1px;
+    style: solid;
+  }
+}
+
+.c-button__bordered-red {
+  border-color: $color--deep-red;
+
+  &:hover {
+    color: $color--white;
+    background-color: $color--deep-red;
+  }
+}
+
+.c-button__bordered-teal {
+  border-color: $color--teal;
+
+  &:hover {
+    color: $color--black;
+    background-color: $color--teal;
+  }
+}
+
+.c-button__bordered-white {
+  border-color: $color--white;
+
+  &:hover {
+    color: $color--black;
+    background-color: $color--white;
+  }
+}

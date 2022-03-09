@@ -1,0 +1,39 @@
+.c-stats-list__divider {
+  height: 1px;
+  background-color: $color--deep-red;
+  margin: 1rem 0;
+
+  .c-stats-list__item:first-child & {
+    margin-left: 100px;
+  }
+
+  .c-stats-list__item:last-child & {
+    margin-right: 100px;
+  }
+}
+
+.c-stats-list__title {
+  position: relative;
+  text-align: center;
+  font-size: 3rem;
+  color: $color--teal;
+  line-height: 1;
+  margin-bottom: 0;
+  padding-top: 16px;
+}
+
+.c-stats-list__pre-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  font-size: 1.3rem;
+  display: block;
+}
+
+.c-stats-list__small-text {
+  color: $color--light-grey;
+  font-size: 0.8rem;
+  text-align: center;
+}

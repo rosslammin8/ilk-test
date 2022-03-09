@@ -1,0 +1,48 @@
+.c-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+  &::after {
+    display: inline-block;
+    width: 100px;
+  }
+}
+
+.c-icon--large {
+  &::after{
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.c-icon--small {
+  &::after{
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.c-icon__gears {
+  &::after{
+    content: url(../../assets/icons/gears.svg);
+    transform: rotateY(180deg);
+  }
+}
+.c-icon__plane {
+  &::after{
+    content: url(../../assets/icons/paper-plane.svg);
+  }
+}
+
+.c-icon__twitter {
+  &::after{
+    content: url(../../assets/icons/twitter-icon.svg);
+  }
+}
+.c-icon__linkedin {
+  &::after{
+    content: url(../../assets/icons/linked-icon.svg);
+  }
+}

@@ -1,0 +1,14 @@
+$color-array: (
+  black:      $color--black,                       
+  white:      $color--white,
+  grey:       $color--grey,
+  light-grey: $color--light-grey,
+  teal:       $color--teal,
+  deep-red:   $color--deep-red
+);
+
+@each $color-name, $color-value in $color-array {
+  .text-#{$color-name} {
+    color: $color-value;
+  }
+}

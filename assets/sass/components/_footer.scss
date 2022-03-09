@@ -1,0 +1,38 @@
+.c-footer {
+  color: $color--white;
+}
+
+.c-footer__vertical-divider {
+  padding-right: 11rem;
+  border-right: 1px solid $color--white;
+}
+
+.c-footer__right {
+  padding-left: 11rem;
+}
+
+.c-footer__title {
+  font-size: 1.2rem;
+}
+
+.c-footer__title,
+.c-footer__signup {
+  margin-bottom: 3rem;
+}
+
+.c-footer__navigation,
+.c-footer__address-title {
+  font-size: 1.1rem;
+}
+
+.c-footer__address-title,
+.c-footer__address,
+.c-footer__contact,
+.c-footer__navigation {
+  margin-bottom: 1rem;
+}
+
+.c-footer__navigation.c-grid--item-half,
+.c-footer__contact-info {
+  margin-bottom: .2rem;
+}
